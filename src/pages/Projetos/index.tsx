@@ -2,16 +2,16 @@ import Container from '../../components/Container/Index';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
-function Sobre() {
+function Projetos() {
   return ( 
     <>
-      <Header />
-      <Container>
-        <h2>Sobre</h2>
-      </Container>
-      <Footer />
+    <Header/>
+    <Container>
+      <h1>Projetos</h1>
+    </Container>
+    <Footer />
     </>
    );
 }
 
-export default Sobre;
+export default Projetos;
