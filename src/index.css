@@ -10,10 +10,12 @@
   --secondary: #0F3460;
   --terceary: #533483;
   --red: #e94560;
-  --soft-white: #f1f1f1;
+  --soft-yellow: #cbcd9a;
   --white: #fefefe;
   --black: #111;
   --gray: #222222;
+  --blue: #001ca4;
+  --golden: #FFD700;
 }
 
 * {

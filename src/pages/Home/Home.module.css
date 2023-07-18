@@ -18,7 +18,7 @@
 }
 
 .home span {
-  color: var(--red);
+  color: var(--blue);
 }
 
 .btn {
@@ -36,10 +36,11 @@
 }
 
 .btn_red {
-  background-color: var(--red);
-  color: var(--white);
-
-}
-.btn-red:hover {
   background-color: var(--primary);
+  color: var(--golden);
+}
+
+.btn_red:hover {
+  background-color: var(--golden);
+  color: var(--black);
 }
