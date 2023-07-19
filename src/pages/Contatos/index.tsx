@@ -1,6 +1,3 @@
-import Container from '../../components/Container/Index';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
 import styles from './Contatos.module.css';
 
 // Importação dos ícones da página
@@ -10,8 +7,6 @@ import { BsInstagram , BsYoutube, BsGithub, BsLinkedin} from 'react-icons/bs';
 function Contatos() {
   return ( 
     <>
-    <Header />
-    <Container>
       <section className={styles.contatos}>
       <h2>Contatos</h2>
       <h3>Entre em contato</h3>
@@ -34,8 +29,6 @@ function Contatos() {
           </a>
         </div>
       </section>
-    </Container>
-    <Footer />
     </>
    );
 }

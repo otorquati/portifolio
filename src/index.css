@@ -13,7 +13,7 @@
   --soft-yellow: #cbcd9a;
   --white: #fefefe;
   --black: #111;
-  --gray: #222222;
+  --gray: rgba(0, 0, 0, 0.55);
   --blue: #001ca4;
   --golden: #FFD700;
 }

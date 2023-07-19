@@ -1,20 +1,48 @@
-.titulo2 {
-  padding-top: 2rem;
-}
-
-.textos {
+.sobre {
+  width: 100%;
+  min-height: 85vh;
+  /*border: 1px solid var(--blue);*/
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.bio {
+  display: flex;
+  border: 1px solid var(--black);
+  box-shadow: 10px 10px var(--gray) ;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+  padding-top: 2rem;
+  padding: 30px;
+}
+
+.textos h2, p {
+  margin-bottom: 1rem;
+}
+
+.techs {
+  width: 70%;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.texto_grande, .texto_vermelho {
-  font-size: 300px;
-  color: var(--red);
-  font-weight: bold;
+.icones {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.texto_vermelho {
-  font-size: 1.5rem;
+.icones img {
+  height: 30px;
 }
