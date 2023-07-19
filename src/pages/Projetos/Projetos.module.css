@@ -9,7 +9,9 @@
 
 .projetos_cards {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 1.5rem;
+  margin-block: 1rem;
 }

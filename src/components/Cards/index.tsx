@@ -1,21 +1,26 @@
 import styles from './Cards.module.css'
-import {FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'
+import {FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython} from 'react-icons/fa'
 import { BsArrowRight } from 'react-icons/bs'
-function Cards() {
+import { Link } from 'react-router-dom';
+
+function Cards({name, description, html_url}) {
   return ( 
     <section className={styles.card}>
-      <h3>Título do projeto</h3>
-      <p>Texto descritivo</p>
+      <div className={styles.card_header}>
+        <h3>{name}</h3>
+      </div>
+      <p>{description}</p>
       <div className={styles.card_footer}>
         <div className={styles.card_icones}>
         <FaHtml5 />
         <FaCss3Alt />
         <FaJs />
         <FaReact />
+        <FaPython />
         </div>
-        <button className={styles.card_btn}>
+        <Link to={html_url} className={styles.card_btn}>
           <BsArrowRight/>
-        </button>
+        </Link>
       </div>
     </section>
    );

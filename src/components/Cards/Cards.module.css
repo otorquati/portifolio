@@ -1,44 +1,56 @@
 .card {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 200px;
   background-color: var(--soft-white);
   color: var(--gray);
   border-radius: 8px;
   box-shadow: 4px 4px 10px var(--shadow);
-  padding: 30px;
+  padding: 0px 0px 25px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
+.card_header {
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  background-color: var(--primary);
+  text-align: center;
+  padding: 5px;
+
+}
 .card h3 {
-  color: var(--blue);
+  color: var(--golden);
 }
 
 .card p {
   color: var(--terceary);
+  padding: 10px;
 }
 
 .card_footer {
   width: 100%;
   display: flex;
   align-items: center;
+  border-top: 1px solid var(--terceary);
+  padding-top: 5px;
   justify-content: space-around;
 }
 
 .card_icones {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   color: var(--red);
   font-size: 1.5rem;
 }
 
 .card_btn {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border: 0px;
-  border-radius: 8px;
+  border-radius: 4px;
   background-color: var(--primary);
   color: var(--white);
   font-size: 1.5rem;
