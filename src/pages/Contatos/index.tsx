@@ -8,7 +8,7 @@ function Contatos() {
   return ( 
     <>
       <section className={styles.contatos}>
-      <h2>Contatos</h2>
+      <h2>Contato</h2>
       <h3>Entre em contato</h3>
       <p>Para que possamos conversar mais sobre.</p>
         <div className={styles.icones}>
