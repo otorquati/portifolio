@@ -10,10 +10,11 @@
   --secondary: #0F3460;
   --terceary: #533483;
   --red: #e94560;
+  --soft-white: #f9f9f9;
   --soft-yellow: #cbcd9a;
-  --white: #fefefe;
+  --white: #fff;
   --black: #111;
-  --gray: rgba(0, 0, 0, 0.55);
+  --shadow: #22222270 ;
   --blue: #001ca4;
   --golden: #FFD700;
 }

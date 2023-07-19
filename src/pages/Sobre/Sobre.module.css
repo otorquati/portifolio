@@ -15,8 +15,9 @@
 
 .bio {
   display: flex;
+  background-color: var(--soft-white);
   border: 1px solid var(--black);
-  box-shadow: 10px 10px var(--gray) ;
+  box-shadow: 5px 5px 10px var(--shadow) ;
   align-items: center;
   gap: 3rem;
   margin-bottom: 1.5rem;
