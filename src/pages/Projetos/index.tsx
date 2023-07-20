@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import Cards from '../../components/Cards';
 import styles from './Projetos.module.css'
+import {Item} from '../../types/Item' 
+
 
 function Projetos() {
-  const [repositories,setRepositories] = useState([])
+  const [repositories,setRepositories] = useState<Item[]>([])
 
   useEffect(() => {
       const buscarRepositorios = async () => {
@@ -12,24 +14,19 @@ function Projetos() {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         const data = await response.json()
         setRepositories(data)
+        console.log(data)
       }
       buscarRepositorios()
   },[])
   return ( 
-
       <section className={styles.projetos}>
         <h2>Meus Projetos e Estudos</h2>
         {
           repositories.length > 0 ? (
             <section className={styles.projetos_cards}>
               {
-                repositories.map((repo) => (
-                  <Cards 
-                  key ={repo.id}
-                  name={repo.name}
-                  description={repo.description}
-                  html_url={repo.html_url} 
-                  />
+                repositories.map((item) => (
+                  <Cards list={item}   />
                 ))
               }
           </section>
