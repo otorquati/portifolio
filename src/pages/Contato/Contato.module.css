@@ -1,4 +1,4 @@
-.contatos {
+.contato {
   width: 100%;
   height: 85vh;
   display: flex;
@@ -9,19 +9,19 @@
 
 }
 
-.contatos h2 {
+.contato h2 {
   color: var(--blue);
   font-size: 2rem;
   font-weight: bold;
 }
 
-.contatos h3, p {
+.contato h3, p {
   color: var(--black);
   font-weight: bold;
 }
 
 
-.contatos p {
+.contato p {
   font-size: 1.25rem;
 }
 

@@ -9,7 +9,8 @@ function Projetos() {
   useEffect(() => {
       const buscarRepositorios = async () => {
         const response = await fetch('https://api.github.com/users/otorquati/repos')
-        const data:Array = await response.json()
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+        const data:Array<string> = await response.json()
         setRepositories(data)
       }
       buscarRepositorios()
@@ -23,6 +24,7 @@ function Projetos() {
               {
                 repositories.map((repo) => (
                   <Cards 
+                  key={repo.id}
                   name={repo.name}
                   description={repo.description}
                   html_url={repo.html_url} 

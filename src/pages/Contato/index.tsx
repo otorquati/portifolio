@@ -1,13 +1,12 @@
-import styles from './Contatos.module.css';
+import styles from './Contato.module.css';
 
 // Importação dos ícones da página
 import { GoMail } from 'react-icons/go';
 import { BsInstagram , BsYoutube, BsGithub, BsLinkedin} from 'react-icons/bs';
 
-function Contatos() {
+function Contato() {
   return ( 
-    <>
-      <section className={styles.contatos}>
+      <section className={styles.contato}>
       <h2>Contato</h2>
       <h3>Entre em contato</h3>
       <p>Para que possamos conversar mais sobre.</p>
@@ -29,8 +28,7 @@ function Contatos() {
           </a>
         </div>
       </section>
-    </>
    );
 }
 
-export default Contatos;
+export default Contato;
