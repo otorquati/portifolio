@@ -25,6 +25,9 @@
   padding: 30px;
 }
 
+.sobre_img {
+  width: 1.25rem;
+}
 .textos h2, p {
   margin-bottom: 1rem;
 }

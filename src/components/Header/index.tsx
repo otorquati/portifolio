@@ -6,13 +6,13 @@ function Header() {
     <>
     <header className= {styles.header}>
       <Link to="/">
-        <span>OsvaldoTorquati.dev</span>
+        <span>TorQuality Consulting</span>
       </Link>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/sobre">Sobre</Link>
         <Link to="/projetos">Projetos</Link>
-        <Link to="/contatos">Contato</Link>
+        <Link to="/contato">Contato</Link>
+        <Link to="/sobre">Sobre</Link>
       </nav>
     </header>
     </>

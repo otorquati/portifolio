@@ -1,6 +1,6 @@
 import Techs from '../../components/Techs';
 import styles from './Sobre.module.css';
-
+import whatsapp from './images/icons8-whatsapp.svg'
 // import das imagens
 import avatar from './images/Torquati_180x180.png'
 
@@ -19,6 +19,9 @@ function Sobre() {
               de sistemas de gestão da qualidade e meio ambiente</p>
               <p>Atuo também no desenvolvimento de aplicações <br/>
               web com foco na experiência do usuário</p>
+              <p>
+              <img className={styles.sobre_img} src={whatsapp} alt="imagem-whatsapp" /> (12) 988-395-065
+              </p>
             </div>
           </div>
           <Techs />
