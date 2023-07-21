@@ -1,7 +1,7 @@
 .card {
   width: 250px;
   height: 200px;
-  background-color: var(--soft-white);
+  background-color: var(--white);
   color: var(--secondary-1-0);
   border-radius: 8px;
   box-shadow: 4px 4px 10px var(--shadow);
@@ -22,7 +22,7 @@
 
 }
 .card h3 {
-  color: var(--secondary-2-3);
+  color: var(--gold);
 }
 
 .card p {
@@ -42,7 +42,7 @@
 .card_icones {
   display: flex;
   gap: 5px;
-  color: var(--secondary-1-1);
+  color: var(--lapis-lazuli);
   font-size: 1.5rem;
 }
 
