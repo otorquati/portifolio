@@ -18,7 +18,7 @@
 }
 
 .home span {
-  color: var(--blue);
+  color: var(--primary-3);
 }
 
 .btn {
@@ -35,12 +35,12 @@
   cursor: pointer;
 }
 
-.btn_red {
-  background-color: var(--primary);
-  color: var(--golden);
+.btn_blue {
+  background-color: var(--primary-0);
+  color: var(--secondary-2-1);
 }
 
-.btn_red:hover {
-  background-color: var(--golden);
-  color: var(--black);
+.btn_blue:hover {
+  background-color: var(--secondary-2-1);
+  color: var(--primary-0);
 }

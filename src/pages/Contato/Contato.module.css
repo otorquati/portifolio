@@ -10,13 +10,13 @@
 }
 
 .contato h2 {
-  color: var(--blue);
+  color: var(--primary-3);
   font-size: 2rem;
   font-weight: bold;
 }
 
 .contato h3, p {
-  color: var(--black);
+  color: var(--secondary-1-4);
   font-weight: bold;
 }
 
@@ -35,5 +35,5 @@
 
 .icone {
   font-size: 3rem;
-  color: var(--blue);
+  color: var(--primary-3);
 }

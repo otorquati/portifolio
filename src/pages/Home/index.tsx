@@ -10,7 +10,7 @@ function Home() {
             <span>Osvaldo Torquati</span><br/>
             Consutor & Dev Full Stack
           </p>
-          <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
+          <Link to="/sobre" className={`${styles.btn} ${styles.btn_blue}`}>
             Saiba mais sobre mim...
           </Link>
         </div>
