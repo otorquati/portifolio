@@ -11,7 +11,7 @@ function Techs() {
   return ( 
     <>
       <div className={styles.techs}>
-      <h3>Techs</h3>
+      <h3>Tecnologias que utilizo</h3>
       <div className={styles.icones}>
         <img src={html} alt="icon do html" />
         <img src={css} alt="icon do css" />

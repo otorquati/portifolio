@@ -15,8 +15,9 @@ function Sobre() {
               <p><span>Sou Osvaldo Torquati </span><br />
                  <strong>Consultor da Qualidade</strong> e <br/>
                  Dev Full Stack </p>
-              <p>Trabalho auxiliando empresas na implementação e auditoria <br />
-              de sistemas de gestão da qualidade e meio ambiente</p>
+              <p>Trabalho auxiliando empresas na implementação de sistemas 
+                 de gestão da qualidade e meio ambiente, e auditoria interna <br />
+              </p>
               <p>Atuo também no desenvolvimento de aplicações <br/>
               web com foco na experiência do usuário</p>
               <p>
